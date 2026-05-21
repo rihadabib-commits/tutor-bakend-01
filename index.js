@@ -309,7 +309,7 @@ async function run() {
   } finally {
   }
 }
-run().catch(console.
+run().catch(console.dir)
 
 app.get('/', (req, res) => {
   res.send('Hello, World!')
