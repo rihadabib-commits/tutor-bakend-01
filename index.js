@@ -309,12 +309,12 @@ async function run() {
   } finally {
   }
 }
-run().catch(console.dir)
+run().catch(console.dir);
 
 app.get('/', (req, res) => {
   res.send('Hello, World!')
 })
 
-app.listen(P, () => {
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
